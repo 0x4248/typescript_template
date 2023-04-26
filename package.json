@@ -1,0 +1,27 @@
+{
+  "name": "typescript_template",
+  "version": "1.0.0",
+  "description": "Template for typescript modules",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "run": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awesomelewis2007/typescript_template.git"
+  },
+  "author": "Lewis Evans",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/awesomelewis2007/typescript_template/issues"
+  },
+  "homepage": "https://github.com/awesomelewis2007/typescript_template#readme",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
+}
