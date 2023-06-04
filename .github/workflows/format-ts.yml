@@ -2,7 +2,7 @@
 # Github: https://www.github.com/awesomelewis2007/workflows
 # By: Lewis Evans
 
-name: Js-beautify
+name: Js-beautify for Typescript
 on:
   push:
     branches: [ master ]
@@ -25,5 +25,5 @@ jobs:
         run: find . -type f -name "*.ts" -exec js-beautify {} -o {} \;
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Format javascript code with js-beautify"
+          commit_message: "Format typescript code with js-beautify"
           file_pattern: "*.ts"
