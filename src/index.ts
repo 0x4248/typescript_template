@@ -2,7 +2,7 @@
  * Template for typescript modules
  * Github: https://github.com/awesomelewis2007/typescript_template
  * By: Lewis Evans
-*/
+ */
 
 /**
  * Add two numbers together and return the result
@@ -10,7 +10,7 @@
  * @param b Number
  * @returns Sum of a and b
  */
-export function add (a: number, b: number): number {
+export function add(a: number, b: number): number {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new Error('add expects two numbers')
     }
@@ -23,7 +23,7 @@ export function add (a: number, b: number): number {
  * @param b Number
  * @returns Difference of a and b
  */
-export function sub (a: number, b: number): number {
+export function sub(a: number, b: number): number {
     if (typeof a !== 'number' || typeof b !== 'number') {
         throw new Error('Parameters must be numbers')
     }
