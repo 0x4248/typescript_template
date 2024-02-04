@@ -1,2 +1,4 @@
 lib/
 *.d.ts
+
+.DS_Store
